@@ -1,4 +1,3 @@
-// src/api/billsApi.ts
 import axios from "axios";
 import type { Bill, BillResponse } from "../types/bill";
 

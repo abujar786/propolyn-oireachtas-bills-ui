@@ -27,6 +27,7 @@ const Home: React.FC = () => {
   const { favourites, toggleFavourite } = useFavourites();
 
   useEffect(() => {
+    //fetch api data
     const load = async () => {
       setLoading(true);
       try {
@@ -46,9 +47,6 @@ const Home: React.FC = () => {
 
   const filteredBills = useMemo(() => {
     const target = tabIndex === 1 ? Object.values(favourites) : bills;
-    // return billTypeFilter
-    //   ? target.filter((b) => b.billType === billTypeFilter)
-    //   : target;
     const filtered = billTypeFilter
       ? target.filter((b) => b.billType === billTypeFilter)
       : target;
@@ -123,7 +121,6 @@ const Home: React.FC = () => {
             />
           )}
 
-          {/* {tabIndex === 0 && ( */}
           <TablePagination
             component="div"
             count={
@@ -145,7 +142,6 @@ const Home: React.FC = () => {
               setRowsPerPage(parseInt(e.target.value, 10));
             }}
           />
-          {/* )} */}
         </>
       )}
     </Box>
