@@ -47,3 +47,11 @@ yarn
 ### Installation
 
 npm run dev
+
+### To run test cases
+
+npm run test
+
+### To See code coverage
+
+npx vitest run --coverage
