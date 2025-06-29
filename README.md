@@ -46,12 +46,18 @@ yarn
 
 ### Installation
 
+```bash
 npm run dev
+```
 
 ### To run test cases
 
+```bash
 npm run test
+```
 
 ### To See code coverage
 
+```bash
 npx vitest run --coverage
+```
