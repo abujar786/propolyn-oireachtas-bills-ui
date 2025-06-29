@@ -70,7 +70,7 @@ const Home: React.FC = () => {
     <Box p={2}>
       <Box display="flex" justifyContent="center">
         <Typography variant="h5" gutterBottom sx={{ color: "primary.main" }}>
-          Legislation Bills Information
+          Oireachtas Bills Information
         </Typography>
       </Box>
       <Box display="flex" justifyContent="space-between" alignItems="center">

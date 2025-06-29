@@ -37,7 +37,7 @@ A modern, responsive web application to view, search, filter, and manage Irish l
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/oireachtas-bills-app.git
+git clone https://github.com/abujar786/propolyn-oireachtas-bills-ui
 cd oireachtas-bills-app
 npm install
 # or
