@@ -43,3 +43,7 @@ npm install
 # or
 yarn
 ```
+
+### Installation
+
+npm run dev
